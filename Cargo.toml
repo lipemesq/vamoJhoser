@@ -1,0 +1,8 @@
+[package]
+name = "tron-legacy"
+version = "0.1.0"
+authors = ["jasm16 <jasm16@inf.ufpr.br>"]
+edition = "2018"
+
+[dependencies]
+termion = "*"
