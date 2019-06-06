@@ -1,3 +1,0 @@
-// O QUE FAZER:
-
-- O servidor escutar em loop por alguém. Se esse alguém for novo, cadastra. Se não for, avisa.

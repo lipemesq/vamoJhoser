@@ -1,8 +1,11 @@
 [package]
-name = "tron-legacy"
+name = "tron"
 version = "0.1.0"
 authors = ["jasm16 <jasm16@inf.ufpr.br>"]
 edition = "2018"
 
 [dependencies]
-termion = "*"
+rand = "0.3.18"
+piston_window = "0.74.0"
+dns-lookup = "*"
+hostname = "*"

@@ -1,0 +1,8 @@
+[package]
+name = "outroSocket"
+version = "0.1.0"
+authors = ["flm17"]
+edition = "2018"
+
+[dependencies]
+dns-lookup = "*"
