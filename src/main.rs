@@ -44,11 +44,13 @@ fn inicia_jogo() {
     let mut jogo = Jogo::new(largura, altura);
     while let Some(event) = janela.next() {
         if let Some(Button::Keyboard(key)) = event.press_args() {
-            jogo.tecla_precionada(key);
+			//player ainda não exite mas deve ser numero
+			//identificador da thread
+			jogo.tecla_precionada(key,player);
         }
         janela.draw_2d(&event, |c, g| {
             clear(PRETO, g);
-            jogo.printa(&c, g);
+            jogo.printa(&c, g,player);
         });
 
         event.update(|arg| {
